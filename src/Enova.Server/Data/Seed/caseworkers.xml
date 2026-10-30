@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<caseworkers xmlns:tns="http://www.xjustiz.de">
+
+    <entry name="Bürgermeister">
+        <tns:auswahl_beteiligter>
+            <tns:natuerlichePerson>
+                <tns:vollerName> <!-- Type.GDS.NameNatuerlichePerson -->
+                    <tns:vorname>Hubert</tns:vorname>
+                    <tns:nachname>Bewiesen</tns:nachname>
+                </tns:vollerName>
+                <tns:anschrift><!-- 003='Dienst-/Geschäftsadresse' -->
+                    <tns:anschriftstyp
+                            listVersionID="3.0"><!--https://www.xrepository.de/details/urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp -->
+                        <code>003</code>
+                    </tns:anschriftstyp>
+                    <tns:anschriftenzusatz>Gemeinde Schattendorf, Vorkaufsrechtsstelle</tns:anschriftenzusatz>
+                    <tns:strasse>Nebenweg</tns:strasse>
+                    <tns:hausnummer>7b</tns:hausnummer>
+                    <tns:postleitzahl>12345</tns:postleitzahl>
+                    <tns:ort>Haltenau</tns:ort>
+                </tns:anschrift>
+                <tns:telekommunikation><!-- 004='Mobiltelefon' -->
+                    <tns:telekommunikationsart
+                            listVersionID="2.3"><!--https://www.xrepository.de/details/urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart -->
+                        <code>004</code>
+                    </tns:telekommunikationsart>
+                    <tns:verbindung>+49 170 8877665</tns:verbindung>
+                </tns:telekommunikation>
+                <tns:telekommunikation><!-- 002='Fax' -->
+                    <tns:telekommunikationsart
+                            listVersionID="2.3"><!--https://www.xrepository.de/details/urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart -->
+                        <code>002</code>
+                    </tns:telekommunikationsart>
+                    <tns:verbindung>+49 89 76521</tns:verbindung>
+                </tns:telekommunikation>
+
+            </tns:natuerlichePerson>
+        </tns:auswahl_beteiligter>
+    </entry>
+
+    <entry name="Antonia">
+        <tns:auswahl_beteiligter>
+            <tns:natuerlichePerson>
+                <tns:vollerName> <!-- Type.GDS.NameNatuerlichePerson -->
+                    <tns:vorname>Antonia</tns:vorname>
+                    <tns:nachname>Allenthaler</tns:nachname>
+                </tns:vollerName>
+                <tns:anschrift><!-- 003='Dienst-/Geschäftsadresse' -->
+                    <tns:anschriftstyp
+                            listVersionID="3.0"><!--https://www.xrepository.de/details/urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp -->
+                        <code>003</code>
+                    </tns:anschriftstyp>
+                    <tns:anschriftenzusatz>Gemeinde Hinterhugeldapfing, Abteilung 3</tns:anschriftenzusatz>
+                    <tns:strasse>Hauptstrasse</tns:strasse>
+                    <tns:hausnummer>2</tns:hausnummer>
+                    <tns:postleitzahl>98776</tns:postleitzahl>
+                    <tns:ort>Hinterhugeldapfing</tns:ort>
+                </tns:anschrift>
+                <tns:telekommunikation><!-- 001='E-Mail' -->
+                    <tns:telekommunikationsart
+                            listVersionID="2.3"><!--https://www.xrepository.de/details/urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart -->
+                        <code>001</code>
+                    </tns:telekommunikationsart>
+                    <tns:verbindung>vorkaufsrecht@hinterhugeldapfing.de</tns:verbindung>
+                </tns:telekommunikation>
+            </tns:natuerlichePerson>
+        </tns:auswahl_beteiligter>
+    </entry>
+
+    <entry name="Chef">
+        <tns:auswahl_beteiligter>
+            <tns:natuerlichePerson>
+                <tns:vollerName> <!-- Type.GDS.NameNatuerlichePerson -->
+                    <tns:vorname>Herbert</tns:vorname>
+                    <tns:nachname>Allenthaler</tns:nachname>
+                </tns:vollerName>
+                <tns:anschrift><!-- 003='Dienst-/Geschäftsadresse' -->
+                    <tns:anschriftstyp
+                            listVersionID="3.0"><!--https://www.xrepository.de/details/urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp -->
+                        <code>003</code>
+                    </tns:anschriftstyp>
+                    <tns:anschriftenzusatz>Gemeinde Hinterhugeldapfing, Abteilung 3</tns:anschriftenzusatz>
+                    <tns:strasse>Hauptstrasse</tns:strasse>
+                    <tns:hausnummer>4</tns:hausnummer>
+                    <tns:postleitzahl>55555</tns:postleitzahl>
+                    <tns:ort>Hinterhugeldapfing</tns:ort>
+                </tns:anschrift>
+                <tns:telekommunikation><!-- 003='Internet' -->
+                    <tns:telekommunikationsart
+                            listVersionID="2.3"><!--https://www.xrepository.de/details/urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart -->
+                        <code>003</code>
+                    </tns:telekommunikationsart>
+                    <tns:verbindung>https://www.lustige-gemeinde.de</tns:verbindung>
+                </tns:telekommunikation>
+            </tns:natuerlichePerson>
+        </tns:auswahl_beteiligter>
+    </entry>
+
+</caseworkers>
+

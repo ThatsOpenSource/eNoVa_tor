@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Lragrz.Enova.Crypto</RootNamespace>
+    <AssemblyName>Enova.Crypto</AssemblyName>
+    <Version>0.0.1</Version>
+    <Authors>EGOV</Authors>
+    <Description>Cryptographic helpers for eNoVA EGOV (re-exports Core providers)</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.14" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Enova.Core\Enova.Core.csproj" />
+  </ItemGroup>
+
+</Project>
+

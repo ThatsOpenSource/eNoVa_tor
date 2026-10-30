@@ -1,0 +1,14 @@
+<Application x:Class="Lragrz.Enova.Client.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Application.Resources>
+    <SolidColorBrush x:Key="PrimaryBrush" Color="#1B4F72"/>
+    <SolidColorBrush x:Key="AccentBrush" Color="#2980B9"/>
+    <SolidColorBrush x:Key="SurfaceBrush" Color="#F5F6F8"/>
+    <SolidColorBrush x:Key="TextBrush" Color="#1C2833"/>
+    <SolidColorBrush x:Key="MutedBrush" Color="#5D6D7E"/>
+    <SolidColorBrush x:Key="BorderBrush" Color="#D5DBDB"/>
+    <SolidColorBrush x:Key="CardBrush" Color="#FFFFFF"/>
+  </Application.Resources>
+</Application>
+

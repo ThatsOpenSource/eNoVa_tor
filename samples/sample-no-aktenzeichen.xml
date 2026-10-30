@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:nachricht.enova.entscheidung.2900003
+    xmlns:tns="http://www.xjustiz.de"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.xjustiz.de xjustiz_2900_dabag_3_3.xsd">
+
+  <tns:nachrichtenkopf>
+    <tns:erstellungszeitpunkt>2026-10-15T10:30:00Z</tns:erstellungszeitpunkt>
+    <tns:absender>
+      <tns:informationen>
+        <tns:auswahl_kommunikationspartner>
+          <tns:sonstige>Notariat Muster</tns:sonstige>
+        </tns:auswahl_kommunikationspartner>
+        <tns:auswahl_verweisGrunddaten>
+          <tns:ref.rollennummer>1</tns:ref.rollennummer>
+        </tns:auswahl_verweisGrunddaten>
+      </tns:informationen>
+      <tns:aktenzeichen></tns:aktenzeichen>
+      <tns:eigeneNachrichtenID>msg-notary-20261015-001</tns:eigeneNachrichtenID>
+    </tns:absender>
+    <tns:empfaenger>
+      <tns:informationen>
+        <tns:auswahl_kommunikationspartner>
+          <tns:sonstige>Gemeinde Musterstadt</tns:sonstige>
+        </tns:auswahl_kommunikationspartner>
+      </tns:informationen>
+    </tns:empfaenger>
+  </tns:nachrichtenkopf>
+
+  <tns:grunddaten>
+    <tns:verfahrensdaten>
+      <tns:instanzdaten>
+        <tns:auswahl_instanzbehoerde>
+          <tns:sonstige>Gemeinde Musterstadt</tns:sonstige>
+        </tns:auswahl_instanzbehoerde>
+        <tns:verfahrensgegenstand>
+          <tns:gegenstand>Vorkaufsrecht – Grundstück Hauptstraße 12</tns:gegenstand>
+        </tns:verfahrensgegenstand>
+      </tns:instanzdaten>
+      <tns:beteiligung>
+        <tns:rolle>
+          <tns:rollennummer>1</tns:rollennummer>
+          <tns:rollenbezeichnung listVersionID="3.5">
+            <code>208</code>
+          </tns:rollenbezeichnung>
+        </tns:rolle>
+        <tns:beteiligter>
+          <tns:beteiligtennummer>1</tns:beteiligtennummer>
+          <tns:auswahl_beteiligter>
+            <tns:natuerlichePerson>
+              <tns:vollerName>
+                <tns:vorname>Max</tns:vorname>
+                <tns:nachname>Mustermann</tns:nachname>
+              </tns:vollerName>
+              <tns:anschrift>
+                <tns:strasse>Notarstraße</tns:strasse>
+                <tns:hausnummer>1</tns:hausnummer>
+                <tns:postleitzahl>80331</tns:postleitzahl>
+                <tns:ort>München</tns:ort>
+              </tns:anschrift>
+            </tns:natuerlichePerson>
+          </tns:auswahl_beteiligter>
+        </tns:beteiligter>
+      </tns:beteiligung>
+      <tns:beteiligung>
+        <tns:rolle>
+          <tns:rollennummer>2</tns:rollennummer>
+          <tns:rollenbezeichnung listVersionID="3.5">
+            <code>168</code>
+          </tns:rollenbezeichnung>
+        </tns:rolle>
+        <tns:beteiligter>
+          <tns:beteiligtennummer>2</tns:beteiligtennummer>
+          <tns:auswahl_beteiligter>
+            <tns:natuerlichePerson>
+              <tns:vollerName>
+                <tns:vorname>Erika</tns:vorname>
+                <tns:nachname>Verkäuferin</tns:nachname>
+              </tns:vollerName>
+              <tns:anschrift>
+                <tns:strasse>Hauptstraße</tns:strasse>
+                <tns:hausnummer>12</tns:hausnummer>
+                <tns:postleitzahl>80331</tns:postleitzahl>
+                <tns:ort>München</tns:ort>
+              </tns:anschrift>
+              <tns:geburt>
+                <tns:geburtsdatum>1975-04-12</tns:geburtsdatum>
+              </tns:geburt>
+            </tns:natuerlichePerson>
+          </tns:auswahl_beteiligter>
+        </tns:beteiligter>
+      </tns:beteiligung>
+      <tns:beteiligung>
+        <tns:rolle>
+          <tns:rollennummer>3</tns:rollennummer>
+          <tns:rollenbezeichnung listVersionID="3.5">
+            <code>072</code>
+          </tns:rollenbezeichnung>
+        </tns:rolle>
+        <tns:beteiligter>
+          <tns:beteiligtennummer>3</tns:beteiligtennummer>
+          <tns:auswahl_beteiligter>
+            <tns:natuerlichePerson>
+              <tns:vollerName>
+                <tns:vorname>Hans</tns:vorname>
+                <tns:nachname>Käufer</tns:nachname>
+              </tns:vollerName>
+              <tns:anschrift>
+                <tns:strasse>Nebenweg</tns:strasse>
+                <tns:hausnummer>5</tns:hausnummer>
+                <tns:postleitzahl>80333</tns:postleitzahl>
+                <tns:ort>München</tns:ort>
+              </tns:anschrift>
+              <tns:geburt>
+                <tns:geburtsdatum>1982-11-03</tns:geburtsdatum>
+              </tns:geburt>
+            </tns:natuerlichePerson>
+          </tns:auswahl_beteiligter>
+        </tns:beteiligter>
+      </tns:beteiligung>
+    </tns:verfahrensdaten>
+  </tns:grunddaten>
+
+  <tns:fachdaten>
+    <tns:auswahl_GegenstandDerNachricht>
+      <tns:ersuchenSachentscheidung>
+        <tns:ersuchenSachentscheidung listVersionID="1.1">
+          <code>003</code>
+        </tns:ersuchenSachentscheidung>
+      </tns:ersuchenSachentscheidung>
+    </tns:auswahl_GegenstandDerNachricht>
+    <tns:beschreibungDesBetroffenenRechts>
+      <tns:bundeslandfremdesGrundbuchblatt>
+        <tns:amtsgericht>München</tns:amtsgericht>
+        <tns:grundbuchbezirk>München</tns:grundbuchbezirk>
+        <tns:grundbuchblatt>12345</tns:grundbuchblatt>
+      </tns:bundeslandfremdesGrundbuchblatt>
+      <tns:buchungsstelle>
+        <tns:auswahl_buchungsstelle>
+          <tns:grundstueck>
+            <tns:flurstuecke>
+              <tns:identifikationFlurstueck>
+                <tns:gemarkungsschluessel>09162000</tns:gemarkungsschluessel>
+                <tns:flurstuecksnummer>
+                  <tns:zaehler>123</tns:zaehler>
+                  <tns:nenner>4</tns:nenner>
+                </tns:flurstuecksnummer>
+              </tns:identifikationFlurstueck>
+            </tns:flurstuecke>
+          </tns:grundstueck>
+        </tns:auswahl_buchungsstelle>
+      </tns:buchungsstelle>
+    </tns:beschreibungDesBetroffenenRechts>
+    <tns:datenDerUrkunde>
+      <tns:urNr>2026/0042</tns:urNr>
+      <tns:urkundsdatum>2026-10-10</tns:urkundsdatum>
+    </tns:datenDerUrkunde>
+  </tns:fachdaten>
+</tns:nachricht.enova.entscheidung.2900003>
+

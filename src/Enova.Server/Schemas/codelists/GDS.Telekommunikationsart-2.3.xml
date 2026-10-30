@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-4="http://xoev.de/schemata/genericode/4"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Annotation>
+      <Description>
+         <xoev-cl-4:shortName>GDS.Telekommunikationsart</xoev-cl-4:shortName>
+         <xoev-cl-4:codelistDescription>Diese Codeliste enthält die verschiedenen Telekommunikationsarten, insbesondere auch die elektronischen Kommunikationsparameter.</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:agencyShortName>AG IT-Standards</xoev-cl-4:agencyShortName>
+         <xoev-cl-4:versionDescription>Diese Codeliste enthält die verschiedenen Telekommunikationsarten, insbesondere auch die elektronischen Kommunikationsparameter.</xoev-cl-4:versionDescription>
+         <xoev-cl-4:validFrom>2026-04-30</xoev-cl-4:validFrom>
+         <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>gds.telekommunikationsart</ShortName>
+      <LongName>GDS.Telekommunikationsart</LongName>
+      <Version>2.3</Version>
+      <CanonicalUri>urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart_2.3</CanonicalVersionUri>
+      <Agency>
+         <LongName>BLK-AG IT-Standards in der Justiz</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Schlüssel</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="wert" Use="required">
+         <ShortName>wert</ShortName>
+         <LongName>Wert</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="beschreibung" Use="optional">
+         <ShortName>beschreibung</ShortName>
+         <LongName>Beschreibung</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Key Id="codeKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-4:recommendedKeyColumn/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>001</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>E-Mail</SimpleValue>
+         </Value>
+         <Value ColumnRef="beschreibung"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>002</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Fax</SimpleValue>
+         </Value>
+         <Value ColumnRef="beschreibung"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>003</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Internet</SimpleValue>
+         </Value>
+         <Value ColumnRef="beschreibung"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>004</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mobiltelefon</SimpleValue>
+         </Value>
+         <Value ColumnRef="beschreibung"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>005</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Pager</SimpleValue>
+         </Value>
+         <Value ColumnRef="beschreibung"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>006</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sonstige</SimpleValue>
+         </Value>
+         <Value ColumnRef="beschreibung"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>007</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Telefon</SimpleValue>
+         </Value>
+         <Value ColumnRef="beschreibung"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>008</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Rechtsverbindlicher elektronischer Kommunikationsweg</SimpleValue>
+         </Value>
+         <Value ColumnRef="beschreibung">
+            <SimpleValue>elektronische Kommunikationsparameter für den ERV, d.h. SAFE-ID für Postfächer der EGVP-Infrastruktur (z.B. beA, beN, beSt, beBPo, eBO, MJP, EGVP-Postfächer der Justiz)</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>
+

@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>Lragrz.Enova.Client</RootNamespace>
+    <AssemblyName>eNoVa_tor.Client</AssemblyName>
+    <Product>eNoVa-Tor</Product>
+    <Copyright>© 2026 Lenny Kunz</Copyright>
+    <Version>0.0.1</Version>
+    <Authors>EGOV</Authors>
+    <StartupObject>Lragrz.Enova.Client.App</StartupObject>
+    <ApplicationIcon Condition="Exists('Resources\icon.ico')">Resources\icon.ico</ApplicationIcon>
+
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2903.40" />
+    <PackageReference Include="QuestPDF" Version="2024.12.3" />
+    <PackageReference Include="itext7" Version="8.0.5" />
+    <PackageReference Include="itext7.bouncy-castle-adapter" Version="8.0.5" />
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Enova.Core\Enova.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\config\eNoVa_tor.client.properties" Link="eNoVa_tor.client.properties" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\samples\debug-enova-2900003.xml" Link="samples\debug-enova-2900003.xml" CopyToOutputDirectory="PreserveNewest" />
+    <Resource Include="Resources\icon.png" Condition="Exists('Resources\icon.png')" />
+    <Resource Include="Resources\icon.ico" Condition="Exists('Resources\icon.ico')" />
+  </ItemGroup>
+
+</Project>
+

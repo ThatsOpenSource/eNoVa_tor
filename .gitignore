@@ -1,0 +1,4 @@
+artifacts
+**/Debug/**
+**/obj/**
+**/bin/**

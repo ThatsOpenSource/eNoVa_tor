@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<decisionMappings>
+    <request code="001">
+        <decision code="001"/>
+        <decision code="002"/>
+        <decision code="003"/>
+        <decision code="004"/>
+        <decision code="031"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="002">
+        <decision code="001"/>
+        <decision code="002"/>
+        <decision code="003"/>
+        <decision code="004"/>
+        <decision code="031"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="003">
+        <decision code="001"/>
+        <decision code="002"/>
+        <decision code="003"/>
+        <decision code="004"/>
+        <decision code="031"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="004">
+        <decision code="005"/>
+        <decision code="006"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="005">
+        <decision code="007"/>
+        <decision code="008"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="006">
+        <decision code="009"/>
+        <decision code="010"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="007">
+        <decision code="011"/>
+        <decision code="012"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="008">
+        <decision code="013"/>
+        <decision code="014"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="009">
+        <decision code="015"/>
+        <decision code="016"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="010">
+        <decision code="017"/>
+        <decision code="018"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="011">
+        <decision code="019"/>
+        <decision code="020"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="012">
+        <decision code="021"/>
+        <decision code="022"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="013">
+        <decision code="023"/>
+        <decision code="024"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="014">
+        <decision code="025"/>
+        <decision code="026"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="015">
+        <decision code="027"/>
+        <decision code="028"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="016">
+        <decision code="029"/>
+        <decision code="031"/>
+    </request>
+
+    <request code="018">
+        <decision code="001"/>
+        <decision code="002"/>
+        <decision code="003"/>
+        <decision code="004"/>
+        <decision code="031"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="019">
+        <decision code="034"/>
+        <decision code="031"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="020">
+        <decision code="035"/>
+        <decision code="031"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="021">
+        <decision code="019"/>
+        <decision code="020"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="022">
+        <decision code="036"/>
+        <decision code="031"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="023">
+        <decision code="037"/>
+        <decision code="031"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="024">
+        <decision code="038"/>
+        <decision code="039"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="025">
+        <decision code="039"/>
+        <decision code="038"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="026">
+        <decision code="040"/>
+        <decision code="031"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="027">
+        <decision code="041"/>
+        <decision code="031"/>
+        <decision code="033"/>
+    </request>
+
+    <request code="028">
+        <decision code="042"/>
+        <decision code="043"/>
+        <decision code="031"/>
+        <decision code="032"/>
+        <decision code="033"/>
+    </request>
+</decisionMappings>

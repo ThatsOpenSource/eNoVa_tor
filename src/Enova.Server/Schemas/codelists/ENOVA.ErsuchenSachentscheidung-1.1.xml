@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:xoev-cl-4="http://xoev.de/schemata/genericode/4"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Annotation>
+      <Description>
+         <xoev-cl-4:shortName>ENOVA.ErsuchenSachentscheidung</xoev-cl-4:shortName>
+         <xoev-cl-4:codelistDescription>Beschreibt die Art des Ersuchens der Sachentscheidung.</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:agencyShortName>AG IT-Standards</xoev-cl-4:agencyShortName>
+         <xoev-cl-4:versionDescription>Beschreibt die Art des Ersuchens der Sachentscheidung.</xoev-cl-4:versionDescription>
+         <xoev-cl-4:validFrom>2026-06-28</xoev-cl-4:validFrom>
+         <xoev-cl-4:versionHandbook>1.1</xoev-cl-4:versionHandbook>
+         <xoev-cl-4:changes>Geänderter Wert: 017 | Bitte um Erteilung der Unbedenklichkeitsbescheinigung gemäß § 22 GrEStG (vorher: Erteilung der Unbedenklichkeitsbescheinigung). Neue Werte: 018 | Erteilung des Zeugnisses nach § 28 Abs. 1 Satz 3 BauGB, 019 | Erteilung des Zeugnisses nach § 22 Abs. 5 BauGB, 020 | Erteilung des Zeugnisses nach § 145 Abs. 6 BauGB, 021 | Erteilung des Zeugnisses nach § 5 GrdstVG und hilfsweise der Genehmigung nach § 2 GrdstVG, 022 | Erteilung des Zeugnisses nach § 6 Abs. 3 GrdstVG, 023 | Erteilung der Bescheinigung nach § 11 Abs. 2 GrdstVG, 024 | Erteilung der Genehmigung nach § 3 ASVG, 025 | Erteilung des Zeugnisses nach § 5 ASVG und hilfsweise der Genehmigung nach § 3 ASVG, 026 | Erteilung des Zeugnisses nach § 28 Abs. 4 ASVG, 027 | Erteilung der Bescheinigung nach § 9 Abs. 2 ASVG, 028 | Erteilung der landwirtschaftsgerichtlichen Genehmigung für sämtliche in der Urkunde enthaltenen genehmigungsbedürftigen Rechtsgeschäfte und hilfsweise um Erteilung eines Negativattests</xoev-cl-4:changes>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>enova.ersuchensachentscheidung</ShortName>
+      <LongName>ENOVA.ErsuchenSachentscheidung</LongName>
+      <Version>1.1</Version>
+      <CanonicalUri>urn:xoev-de:xjustiz:codeliste:enova.ersuchensachentscheidung</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:xjustiz:codeliste:enova.ersuchensachentscheidung_1.1</CanonicalVersionUri>
+      <Agency>
+         <LongName>BLK-AG IT-Standards in der Justiz</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Schlüssel</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="wert" Use="optional">
+         <ShortName>wert</ShortName>
+         <LongName>Wert</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Key Id="codeKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-4:recommendedKeyColumn/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>001</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitteilung, ob der Grundbesitz von einem gesetzlichen Vorkaufsrecht der Gemeinde betroffen ist</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>002</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitteilung, ob auf die Ausübung des/der gesetzlichen Vorkaufsrechts/-e der Gemeinde an dem Grundbesitz verzichtet wird</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>003</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitteilung, ob der Grundbesitz von einem gesetzlichen Vorkaufsrecht der Gemeinde betroffen ist und, falls ja, ob auf die Ausübung des/der gesetzlichen Vorkaufsrechts/-e der Gemeinde verzichtet wird</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>004</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der sanierungsrechtlichen Genehmigung gemäß §§ 144, 145 BauGB</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>005</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der Genehmigung für Vorhaben und Rechtsvorgänge im städtebaulichen Entwicklungsbereich gemäß § 169 Abs. 1 Nr. 3 i.V.m. §§ 144, 145 BauGB</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>006</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der Genehmigung für Vorhaben und Rechtsvorgänge im Gebiet mit Fremdenverkehrsfunktion gemäß § 22 BauGB</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>007</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der Genehmigung für Vorhaben und Rechtsvorgänge im Bereich einer Erhaltungssatzung gemäß §§ 172, 173 BauGB</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>008</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der Genehmigung für Vorhaben und Rechtsvorgänge im Umlegungsgebiet gemäß § 51 BauGB</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>009</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der Genehmigung für Vorhaben und Rechtsvorgänge bei eingeleitetem Enteignungsverfahren gemäß §§ 108, 109 BauGB</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>010</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der Genehmigung für Vorhaben und Rechtsvorgänge im Gebiet mit angespannten Wohnungsmärkten gemäß § 250 BauGB</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>011</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der Genehmigung nach § 2 GrdstVG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>012</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der Genehmigung nach § 2 GVO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>013</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der familiengerichtlichen Genehmigung für sämtliche in der Urkunde enthaltenen genehmigungsbedürftigen Rechtsgeschäfte und hilfsweise um Erteilung eines Negativattests</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>014</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der betreuungsgerichtlichen Genehmigung für sämtliche in der Urkunde enthaltenen genehmigungsbedürftigen Rechtsgeschäfte und hilfsweise um Erteilung eines Negativattests</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>015</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der nachlassgerichtlichen Genehmigung für sämtliche in der Urkunde enthaltenen genehmigungsbedürftigen Rechtsgeschäfte und hilfsweise um Erteilung eines Negativattests</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>016</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung eines Rechtskraftzeugnisses gemäß § 46 FamFG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>017</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Bitte um Erteilung der Unbedenklichkeitsbescheinigung gemäß § 22 GrEStG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>018</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung des Zeugnisses nach § 28 Abs. 1 Satz 3 BauGB</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>019</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung des Zeugnisses nach § 22 Abs. 5 BauGB</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>020</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung des Zeugnisses nach § 145 Abs. 6 BauGB</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>021</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung des Zeugnisses nach § 5 GrdstVG und hilfsweise der Genehmigung nach § 2 GrdstVG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>022</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung des Zeugnisses nach § 6 Abs. 3 GrdstVG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>023</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der Bescheinigung nach § 11 Abs. 2 GrdstVG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>024</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der Genehmigung nach § 3 ASVG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>025</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung des Zeugnisses nach § 5 ASVG und hilfsweise der Genehmigung nach § 3 ASVG </SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>026</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung des Zeugnisses nach § 28 Abs. 4 ASVG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>027</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der Bescheinigung nach § 9 Abs. 2 ASVG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>028</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erteilung der landwirtschaftsgerichtlichen Genehmigung für sämtliche in der Urkunde enthaltenen genehmigungsbedürftigen Rechtsgeschäfte und hilfsweise um Erteilung eines Negativattests</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>
+

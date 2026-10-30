@@ -1,0 +1,4044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:xoev-cl-4="http://xoev.de/schemata/genericode/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <Annotation>
+      <Description>
+         <xoev-cl-4:shortName>GDS.Rollenbezeichnung</xoev-cl-4:shortName>
+         <xoev-cl-4:codelistDescription>Codeliste der verschiedenen Rollenbezeichnungen.</xoev-cl-4:codelistDescription>
+         <xoev-cl-4:agencyShortName>AG IT-Standards</xoev-cl-4:agencyShortName>
+         <xoev-cl-4:validFrom>2025-04-30</xoev-cl-4:validFrom>
+         <xoev-cl-4:versionHandbook>1.2</xoev-cl-4:versionHandbook>
+         <xoev-cl-4:changes>In der Fachmodulspalte zum Eintrag '246|Gesellschafter(in)' wurde die Nutzung durch das Fachmodul Register (REG) ergänzt. Der Codelistentyp wurde von Typ1 nach Typ3 geändert.</xoev-cl-4:changes>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>gds.rollenbezeichnung</ShortName>
+      <LongName>GDS.Rollenbezeichnung</LongName>
+      <Version>3.5</Version>
+      <CanonicalUri>urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung</CanonicalUri>
+      <CanonicalVersionUri>urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung_3.5</CanonicalVersionUri>
+      <Agency>
+         <LongName>BLK-AG IT-Standards in der Justiz</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>code</ShortName>
+         <LongName>Schlüssel</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="wert" Use="required">
+         <ShortName>wert</ShortName>
+         <LongName>Wert</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="fachmodul" Use="optional">
+         <ShortName>fachmodul</ShortName>
+         <LongName>Aufgeführte Fachmodule nutzen ausschließlich die für sie gekennzeichneten Werte</LongName>
+         <Data Type="string"/>
+      </Column>
+      <Key Id="codeKey">
+         <Annotation>
+            <AppInfo>
+               <xoev-cl-4:recommendedKeyColumn/>
+            </AppInfo>
+         </Annotation>
+         <ShortName>codeKey</ShortName>
+         <ColumnRef Ref="code"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>001</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Abwesenheitspfleger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>002</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Aliasidentität</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>003</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Angehörige(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>004</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Angeklagte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>005</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Angeschuldigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>006</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Annehmende(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>007</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Anschlussberufungsbeklagte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>008</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Anschlussberufungskläger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>009</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Anschlussbeschwerdeführer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>010</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Anschlussbeschwerdegegner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>011</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Anschlussrechtsbeschwerdeführer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>012</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Anschlussrechtsbeschwerdegegner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>013</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Anschlussrevisionsbeklagte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>014</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Anschlussrevisionskläger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>015</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Antragsgegner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,VAG,ZSSR,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>016</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Antragsteller(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,VAG,ZSSR,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>017</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Anzeigeerstatter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>018</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Anzunehmende(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>019</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Arrestgläubiger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>020</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Arrestschuldner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>021</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Aufsichtsbehörde</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>022</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Ausschlagende(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>023</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Beamter (Beamtin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>024</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Behörde</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>025</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Beigeladene(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>026</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Beistand</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>027</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Bekannte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>028</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Beklagte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>029</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Berufungsbeklagte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>030</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Berufungskläger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>031</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Beschuldigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>032</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Beschwerdeführer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>033</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Beschwerdegegner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>034</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Besucher(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>036</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Betreibende(r) Gläubige(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>037</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Betreuer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>038</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Betreute(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>039</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Betreuungsbehörde</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>040</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Betroffene(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EHUG,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>041</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Bevollmächtigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EHUG,INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>042</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Bewährungshelfer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>043</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Beweisanwalt (-anwältin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>044</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Bruder (Schwester)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>045</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Bundeswehrdisziplinaranwalt (-anwältin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>046</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Bußgeldempfänger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>047</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Cousin(e)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>048</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Dienstvorgesetzte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>049</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>director</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>050</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Dolmetscher(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>051</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Dritte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>052</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Drittschuldner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>053</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Drittwiderbeklagte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>054</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Drittwiderkläger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>056</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Ehemann (Ehefrau)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>057</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Eigentümer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>058</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Eingetragene(r) Lebenspartner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>059</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Einleitungsbehörde</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>060</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Eltern</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>061</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Elternteil</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>062</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Enkel(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>063</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erbe (Erbin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>064</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erbe (Erbin) (ausschlagend)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>065</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erbe (Erbin) (vorverstorben)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>066</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erblasser(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>067</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Ergänzungspfleger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>068</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erinnerungsführer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>069</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erinnerungsgegner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>070</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Ersatzbetreuer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>071</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Ersteher(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>072</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erwerber(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>073</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erziehungsberechtigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>074</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Frühere(r) Ehegatte (Ehegattin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>075</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Frühere(r) Beklagte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>076</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Frühere(r) Beteiligte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>077</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Frühere(r) Gläubiger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>078</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Frühere(r) Kläger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>079</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Frühere(r) Soldat(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>080</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gegenvormund</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>081</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Generalbundesanwalt (-anwältin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>082</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gericht</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>083</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gerichtsvollzieher(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>ZPO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>084</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Geschädigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>085</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Geschäftsführende(r) Gesellschafter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>086</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Geschäftsführer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>087</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gesetzliche(r) Erbe (Erbin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>088</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gesetzliche(r) Vertreter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EHUG,INSO,ZSSR,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>089</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gläubiger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EZOLL,INSO,ZPO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>090</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Großeltern</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>092</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Großvater (Großmutter)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>093</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Hauptbevollmächtigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EHUG,INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>094</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Hoferbe (Hoferbin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>095</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Inhaber(in) der Firma</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>096</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Insolvenzverwalter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>097</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Jugendamt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>098</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Kammer</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>099</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Kammermitglied</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>100</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Kind</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>101</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Kläger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>102</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Kontrollbetreuer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>103</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Korrespondenzanwalt (-anwältin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>104</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Kostenschuldner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>105</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Landwirtschaftsrichter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>106</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Lebenspartner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>107</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Liquidator(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>108</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Minderjährige(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>109</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitvormund</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>110</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mündel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>112</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Nachbesserungsgläubiger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>113</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Nachlasspfleger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>114</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Nachlassverwalter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>115</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Nebenkläger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>116</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Neffe (Nichte)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>117</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Nicht verwandt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>118</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Onkel (Tante)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>119</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Opfer</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>120</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Pächter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>121</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Pflegeeltern</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>123</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Pfleger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>124</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Pfleger(in) für das Sammelvermögen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>125</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Pfleger(in) für die Leibesfrucht</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>126</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Pflegevater (Pflegemutter) des Mündels</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>127</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Pflegling</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>128</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Pflichtverteidiger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>129</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Polizei</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>130</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Privatbeklagte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>131</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Privatkläger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>132</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Prozessbevollmächtigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EHUG,INSO,ZSSR,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>133</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Prozesskostenhilfe-Anwalt (-Anwältin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>134</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Prozesskostenhilfe-Korrespondenzanwalt (-anwältin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>135</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Rechtsanwalt (-anwältin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>136</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Rechtsbeistand</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>137</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Rechtsbeschwerdeführer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>138</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Rechtsbeschwerdegegner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>139</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Revisionsbeklagte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>140</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Revisionskläger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>141</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sachbearbeiter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>142</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sachverständige(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>143</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Schuldner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EZOLL,INSO,VSTR,ZPO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>144</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Schwager (Schwägerin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>146</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Schwiegersohn (Schwiegertochter)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>148</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Schwiegervater (Schwiegermutter)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>149</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sohn (Tochter)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>150</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Soldat(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>151</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sonstige(r) Beteiligte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>152</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sonstige(r) Vertreter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EHUG,INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>153</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Staatsanwaltschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>154</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Stiefeltern</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>156</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Stiefvater (Stiefmutter)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>161</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Terminsbevollmächtigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>162</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Testamentsvollstrecker(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>163</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Testator(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>164</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Übernehmer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>165</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Unterbevollmächtigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EHUG,INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>166</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Ur-Enkel(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>167</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vater (Mutter)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>168</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Veräußerer (Veräußerin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>169</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verfahrensbevollmächtigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EHUG,INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>170</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verfahrenskostenhilfe-Anwalt(-Anwältin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>171</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verfahrenskostenhilfe-Korrespondenzanwalt (-anwältin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>172</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verfahrenspfleger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>173</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verfahrensvertreter(in) (§787 ZPO)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EHUG,INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>174</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verfügungsbeklagte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>175</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verfügungskläger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>176</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verkehrsanwalt (-anwältin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>177</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verlobte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>178</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vermächtnisnehmer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>179</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vermieter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>180</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verpächter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>181</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Versorgungsträger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>VAG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>182</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verteidiger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>183</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vertreter(in) der Interessen des Ausgleichsfonds</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>184</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vertreter(in) der Staatskasse</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>185</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vertreter(in) des Bundesinteresses beim Bundesverwaltungsgericht</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>186</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vertreter(in) des öffentlichen Interesses</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>187</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verurteilte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>188</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verwalter(in) der Wohnungseigentümergemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>189</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verwaltungsbehörde</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>190</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vollstreckungsgläubiger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>191</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vollstreckungsschuldner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>192</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vorläufige(r) Betreuer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>193</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vormund</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>194</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vorstand</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>195</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vorsorgebevollmächtigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>196</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Wahlverteidiger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>197</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Widerbeklagte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>198</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Widerkläger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>199</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Wiederaufnahmebeklagte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>200</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Wiederaufnahmekläger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>201</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Zahlungs- und Auflagenempfänger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>202</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Zeuge (Zeugin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>203</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Zeugenbeistand</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>204</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Zulassungsantragsgegner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>205</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Zulassungsantragsteller(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>206</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Zustellungsbevollmächtigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EHUG,INSO,STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>207</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Zustellungsvertreter(in) (§6 ZVG)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EHUG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>208</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Notar(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>209</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Auskunftsempfänger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>210</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Melder(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>211</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verwahrstelle</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>212</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Aussteller(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>213</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Berechtigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>214</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Berechtigte(r) an einem Recht</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>215</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Einreicher(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>216</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erbbauberechtigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>217</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Finanzamt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>218</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Grundbuchvertreter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>219</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Insolvenzgericht</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>220</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitteilungsempfänger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>221</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Nacherbe (Nacherbin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>222</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Rechnungsempfänger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>223</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Veranlasser(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>224</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Versteigerungsabteilung</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>225</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vertretungsberechtigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EHUG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>226</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Zweitschuldner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,KASSE</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>227</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vertreter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EHUG,INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>228</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Arbeitgeber(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EZOLL,ZPO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>229</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>RV-Träger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EZOLL,ZPO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>230</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vollstreckungsstelle</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EZOLL</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>231</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Abkömmling</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>232</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Kreditnehmer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>233</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Neu vorzutragende(r) Eigentümer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>234</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Notariatsverwalter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>235</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Notarvertreter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>236</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Partei kraft Amtes</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>237</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sequester</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>238</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Treuhänder(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>239</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Zustimmende(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>240</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gläubigervertreter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>241</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Schuldnervertreter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>242</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Zahlungsempfänger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>243</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Anteilsinhaber(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>244</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Antragsteller(in) -Eröffnung</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>245</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Debitor(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>246</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gesellschafter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO,REG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>247</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Handlungsbevollmächtigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>248</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied einer Gesamt-Anteilsinhaberschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>249</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied einer Gläubigergemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>250</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitreeder(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>251</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Partner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>252</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Persönlich haftende(r) Gesellschafter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>253</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Prozesspfleger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>254</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sachwalter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>255</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Treuhänder(in) (Wohlverhaltensperiode)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>256</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vermögensträger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>257</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vorläufige(r) Insolvenzverwalter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>258</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vorläufige(r) Treuhänder(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>259</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sondersachwalter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>260</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sonderinsolvenzverwalter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>261</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vorläufige(r) Sachwalter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>262</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Abwickler(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>263</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Übernehmender Rechtsträger</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>264</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Aufsichtsrat (-rätin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>265</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Besondere(r) Vertreter(in) nach § 30 BGB</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>EHUG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>266</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Betriebsleiter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>267</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Empfangsberechtigte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>268</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Geschäftsführende(r) Direktor(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>269</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Geschäftsleiter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>271</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gründer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>272</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gründungsprüfer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>273</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Hauptniederlassung</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>274</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Inhaber(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>275</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Kommanditist(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>276</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Konkursverwalter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>277</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied des Leitungsorgans</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>278</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied EWIV</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>279</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Nachgründungsprüfer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>280</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Nachtragsabwickler(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>281</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Nachtragsliquidator(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>282</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Notgeschäftsführer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>283</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Notliquidator(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>284</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Notvorstand</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>285</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Prokurist(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>287</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Rechtsträger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>288</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Registergericht</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>289</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sacheinlagenprüfer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>290</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Ständige(r) Vertreter(in) für die Zweigniederlassung</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>INSO</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>291</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Übertragender Rechtsträger</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>292</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vergleichsverwalter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>293</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verwaltungsrat (-rätin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>294</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vorstandsvorsitzende(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>295</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Zweigniederlassung</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>296</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vertreter(in) des Klägers/der Klägerin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>297</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vertreter(in) des/der Beklagten</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>298</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Bewährungshilfe</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>299</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gerichtshilfe</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>300</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Justizvollzug</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>301</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Pseudoname</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>302</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gesetzliche(r) Vertreter(in) des Gläubigers/der Gläubigerin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>303</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gesetzliche(r) Vertreter(in) des Schuldners/der Schuldnerin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>304</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Bevollmächtigte(r) des Gläubigers/der Gläubigerin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>305</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Bevollmächtigte(r) des Schuldners/der Schuldnerin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>306</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Fahrzeughalter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>307</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Frühere(r) Lebenspartner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>308</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sicherungsverwalter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>309</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Zwangsverwalter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>310</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mieter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>311</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Bürge (Bürgin)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>312</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Meistbietende(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>313</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Abschlussprüfer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>314</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Antragstellervertreter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>315</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Aufsichtsratsvorsitzende(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>316</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Berufskammer</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>317</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Betroffenenvertreter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>318</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Bürgermeister(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>319</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Eingliederungsbeteiligte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>320</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Formwechselnder Rechtsträger</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>321</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gewerbeamt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>322</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Inhaber(in) (nicht eingetragen)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>323</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Kostenempfänger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>KASSE</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>324</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Nachlassgericht</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>325</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sonderprüfer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>326</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sonstige(r) gerichtlich bestellte(r) Vertreter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>327</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sonstige(r) gesetzliche(r) Vertreter(in) BGB</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>328</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sonstige(r) organschaftliche(r) Vertreter(in) HRB</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>329</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Standardkostenschuldner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>330</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Übernahmeschuldner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>331</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Unternehmensvertragsbeteiligte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>332</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vertreter(in) des persönlich haftenden Gesellschafters</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>333</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Werkleiter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>334</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mehrfachsitz</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>335</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied VR</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>336</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied e. BGB-Gesellschaft als Abwicklerin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>337</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied e. BGB-Gesellschaft als ges. Vertreterin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>338</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied e. BGB-Gesellschaft als Kommanditistin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>339</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied e. BGB-Gesellschaft als Liquidatorin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>340</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied e. BGB-Gesellschaft als Mitglied e. EWIV</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>341</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied e. BGB-Gesellschaft als phG</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>342</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied e. Erbengemeinschaft als ges. Vertreterin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>343</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied e. Erbengemeinschaft als Inhaberin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>344</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied e. Erbengemeinschaft als Kommanditistin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>345</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied e. Erbengemeinschaft als Mitglied e. EWIV</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>346</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Nebensitz</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>347</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Gesamthandsgemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>348</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Mitglied einer Gesamthandsgemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>349</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Leitungsperson i.S.v. § 30 Abs. 1 Nr. 1 bis 5 OWiG</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>350</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Einziehungsbeteiligter</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>351</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Antragsgegnervertreter(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>352</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verbraucher(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>353</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vielmelder(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>354</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Vollmachtgeber(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>355</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Nebenbeteiligte(r) § 444 StPO</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>356</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verfallsbeteiligte(r) § 442 StPO a.F.</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>357</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Verfolgte(r) § 34 IRG</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>358</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Rechtsnachfolger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>359</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Statuswechselnde(r) Rechtsträger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>360</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Haftangehörige</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>STRAF</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>361</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Restrukturierungsbeauftragte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>362</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Sanierungsmoderator(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>363</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Abschriftenempfänger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>KASSE</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>364</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Kostenbeamte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>KASSE</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>365</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Urkundsbeamte(r) der Geschäftsstelle</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>KASSE</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>366</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Anordnungsbefugte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>KASSE</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>367</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Erstschuldner(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>KASSE</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>368</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Kasse</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue>KASSE</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>369</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Arrestbeklagte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>370</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Arrestkläger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>371</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Bezirksrevisor(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>372</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Nebenintervenient(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>373</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Restitutionsbeklagte(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>374</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Restitutionskläger(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>375</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Streithelfer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>376</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Streitverkündete(r)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>377</SimpleValue>
+         </Value>
+         <Value ColumnRef="wert">
+            <SimpleValue>Übersetzer(in)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fachmodul">
+            <SimpleValue/>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+<script/></gc:CodeList>

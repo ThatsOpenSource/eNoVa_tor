@@ -1,0 +1,20 @@
+{
+  "formatId": "xjustiz.enova.2900003",
+  "schemaVersion": "3.3.0",
+  "publishedAt": "2026-10-13T00:00:00Z",
+  "files": [
+    {
+      "name": "xjustiz_2900_dabag_3_3.xsd",
+      "relativePath": "xjustiz_2900_dabag_3_3.xsd",
+      "contentType": "application/xml",
+      "sha256": "placeholder-replace-with-real-hash"
+    },
+    {
+      "name": "enova-codelists-manifest.json",
+      "relativePath": "enova-codelists-manifest.json",
+      "contentType": "application/json",
+      "sha256": "placeholder-replace-with-real-hash"
+    }
+  ]
+}
+

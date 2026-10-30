@@ -1,0 +1,7 @@
+<Project>
+  <!--
+    Framework packages (System.Security.Cryptography.Xml / Pkcs) ship with the .NET 10
+    shared framework. Security fixes come from updating the SDK/runtime, not NuGet pins.
+    Keep this file for future solution-wide MSBuild properties.
+  -->
+</Project>
