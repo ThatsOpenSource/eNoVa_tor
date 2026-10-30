@@ -30,8 +30,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="Schemas\**\*" CopyToOutputDirectory="PreserveNewest" />
-    <Content Update="Data\Seed\**\*" CopyToOutputDirectory="PreserveNewest" />
+    <EmbeddedResource Include="Schemas\codelists\*.xml" />
+    <Content Include="Data\Seed\**\*" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
     <Content Update="appsettings.json" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 

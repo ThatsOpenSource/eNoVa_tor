@@ -12,8 +12,8 @@ public sealed class ReferenceDataService
         // Prefer ContentRoot, fall back to BaseDirectory (important for single-file publish)
         var candidates = new[]
         {
-            Path.Combine(env.ContentRootPath, "Data", "Seed"),
             Path.Combine(AppContext.BaseDirectory, "Data", "Seed"),
+            Path.Combine(env.ContentRootPath, "Data", "Seed"),
             Path.Combine(Directory.GetCurrentDirectory(), "Data", "Seed")
         };
         _seedRoot = candidates.FirstOrDefault(Directory.Exists) ?? candidates[0];
@@ -66,30 +66,53 @@ public sealed class ReferenceDataService
         };
         if (file is null) return new();
 
-        var path = Path.Combine(Directory.GetCurrentDirectory(), "Schemas", "codelists", file);
-        if (!File.Exists(path))
-            path = Path.Combine(AppContext.BaseDirectory, "Schemas", "codelists", file);
-        if (!File.Exists(path)) return new();
-
-        try
+        // Prefer embedded resource (ships inside the exe)
+        var asm = typeof(ReferenceDataService).Assembly;
+        var resourceName = asm.GetManifestResourceNames()
+            .FirstOrDefault(n => n.EndsWith(file, StringComparison.OrdinalIgnoreCase));
+        if (resourceName is not null)
         {
-            var doc = XDocument.Load(path);
-            // Genericode simple extraction (code + name/value)
-            var entries = new List<CodeListEntryDto>();
-            foreach (var row in doc.Descendants().Where(e => e.Name.LocalName == "Row"))
+            using var stream = asm.GetManifestResourceStream(resourceName);
+            if (stream is not null)
             {
-                var values = row.Descendants().Where(e => e.Name.LocalName == "SimpleValue").Select(e => e.Value).ToList();
-                if (values.Count >= 2)
-                    entries.Add(new CodeListEntryDto(values[0], values[1]));
-                else if (values.Count == 1)
-                    entries.Add(new CodeListEntryDto(values[0], values[0]));
+                // Extract once so the file exists on disk for inspection
+                var dir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "eNoVa_tor", "codelists");
+                Directory.CreateDirectory(dir);
+                var outPath = Path.Combine(dir, file);
+                if (!File.Exists(outPath))
+                {
+                    using var fs = File.Create(outPath);
+                    stream.CopyTo(fs);
+                    stream.Position = 0;
+                }
+                return ParseCodeList(XDocument.Load(stream));
             }
-            return entries;
         }
-        catch
+
+        // Fallback: file next to exe or in source tree
+        var candidates = new[]
         {
-            return new();
+            Path.Combine(AppContext.BaseDirectory, "Schemas", "codelists", file),
+            Path.Combine(Directory.GetCurrentDirectory(), "Schemas", "codelists", file),
+            Path.Combine(Directory.GetCurrentDirectory(), "src", "Enova.Server", "Schemas", "codelists", file)
+        };
+        var path = candidates.FirstOrDefault(File.Exists);
+        if (path is null) return new();
+        return ParseCodeList(XDocument.Load(path));
+    }
+
+    private static List<CodeListEntryDto> ParseCodeList(XDocument doc)
+    {
+        var entries = new List<CodeListEntryDto>();
+        foreach (var row in doc.Descendants().Where(e => e.Name.LocalName == "Row"))
+        {
+            var values = row.Descendants().Where(e => e.Name.LocalName == "SimpleValue").Select(e => e.Value).ToList();
+            if (values.Count >= 2)
+                entries.Add(new CodeListEntryDto(values[0], values[1]));
+            else if (values.Count == 1)
+                entries.Add(new CodeListEntryDto(values[0], values[0]));
         }
+        return entries;
     }
 }
 

@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<tns:nachricht.enova.entscheidung.2900003
-    xmlns:tns="http://www.xjustiz.de"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.xjustiz.de xjustiz_2900_dabag_3_3.xsd">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tns:nachricht.enova.entscheidung.2900003 xmlns:tns="http://www.xjustiz.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xjustiz.de xjustiz_2900_dabag_3_3.xsd">
 
   <tns:nachrichtenkopf>
     <tns:erstellungszeitpunkt>2026-10-15T10:30:00Z</tns:erstellungszeitpunkt>
@@ -207,5 +204,5 @@
       <tns:urkundsdatum>2026-10-10</tns:urkundsdatum>
     </tns:datenDerUrkunde>
   </tns:fachdaten>
-</tns:nachricht.enova.entscheidung.2900003>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>fU0ta3mq3q/4fWr4bqP4BdFy2yA2MjjAWA0qp1n5HE8=</DigestValue></Reference></SignedInfo><SignatureValue>dUf+3CzMmcwVJmcOag+4vYHNM8XH4Vyw15cfZsoEzND5+MuR8XBrXhughcmh9b1jZipRq4HoJDRM0ALFdq0OLce2G+Fu46FykHXM+vBa014C1j2pCMK/98sc/hUe4wDewhx0kRCcG2WKgLP3aB6DhcDOAZVL7CeWSFade+HUzcKuPEhiKmptIxRyW8r89MDGngAxqLP54JHAb8t02hfvjvj6J0H+ORJgT+6WQjBQ7OFitzGECndMpk6zPtUwp4P3B9Ty/dWxcygzQn2X78Mt22VakN12EkGdzImU9FclZtYKoWs0BH/49yuaKYK01QfUP0pXnyoiL+mXQEJlOFnYvw==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIICzTCCAbWgAwIBAgIJAKhY+R5IUB6AMA0GCSqGSIb3DQEBCwUAMCYxDTALBgNVBAoTBEVHT1YxFTATBgNVBAMTDExSQS1HUlogTW9jazAeFw0yNjEwMjkyMDMwMDlaFw0yNzEwMzAyMDMwMDlaMCYxDTALBgNVBAoTBEVHT1YxFTATBgNVBAMTDExSQS1HUlogTW9jazCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKtQ36i+j4oFKbq4h5g7DyPhgUMck7TYCZoxSgjqC4LOGpg/ihcH5S632QDJegVbYcCDDN2qmniMDqzMDdKuCdY6VsHeZUwXXBuJYrdhZMb0A9V6SiSVndS836spytkiquuKK53TcLO1pHp9fZlJpTnEbyutVYNYeyX+uzzWHvOS5UQvi8SDuj/dJVpV+swUWoPmk7FsLIOh0Pac+Jk1oS4TeHDfi/JKuQw3I6AgPKCfbbWCbxEbmTlKrUfSDKNnNI7OkvGQ2FvoAsIsuORHBCTdXnOl/+JAf8BLduP6r+l2eSoyGQPiF9WX1g2hGqRGQgMuGI2/zKzp+oLFu7BIvhkCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEANyASR+95GQnKL+LiVQnZgaYABXhNUY6dtxfqJLlMeQfY1F6XrM4tbbpgjZiTcYJtif/QStebLl6wp+alj9FOH8X2195ke0hCu9aday8S6dME0XytcSoAcM03dL1DklBr3Z5nIIyPeSJ7hrP9fb/uMhqLE5VXUoeLbJQtDuG8TJSMnTe0GYtZvET37AxwXxU8wmZgH/b59duzVi8wAfTPHtaiVwB6EW/10NzsNtNHbX2WC+ccdK3j+8PjhubGO7F01Mgts4fI/dAFhwTcLFdKztB7k+XWnrZRDhe81kiwnaSkuP0A7QtHExcQVL2vJH4IJcrBu5WpdeBKksT8OMQLtA==</X509Certificate></X509Data></KeyInfo></Signature></tns:nachricht.enova.entscheidung.2900003>
 
