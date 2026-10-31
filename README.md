@@ -1,4 +1,4 @@
-![eNoVa-Tor Logo](https://github.com/ThatsOpenSource/eNoVa_tor/blob/5269b8f30ee9661396ecdd6ad0c5e4cc90b48bfa/src/Enova.Client/Resources/icon.png?raw=true)
+![eNoVa-Tor Logo](https://github.com/ThatsOpenSource/eNoVa_tor/blob/480443f0f780c5bc9bbb0108e8870147d763f6b0/src/Enova.Client/Resources/icon.png?raw=true)
 
 # eNoVa-Tor
 
