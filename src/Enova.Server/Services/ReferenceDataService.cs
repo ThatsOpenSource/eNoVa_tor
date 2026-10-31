@@ -43,10 +43,21 @@ public sealed class ReferenceDataService
 
     public Dictionary<string, List<string>> GetDecisionMappings()
     {
-        var path = Path.Combine(_seedRoot, "decision-config.xml");
-        if (!File.Exists(path)) return new();
-
-        var doc = XDocument.Load(path);
+        // Prefer embedded
+        var asm = typeof(ReferenceDataService).Assembly;
+        var res = asm.GetManifestResourceNames().FirstOrDefault(n => n.EndsWith("decision-config.xml", StringComparison.OrdinalIgnoreCase));
+        XDocument doc;
+        if (res is not null)
+        {
+            using var stream = asm.GetManifestResourceStream(res);
+            doc = XDocument.Load(stream!);
+        }
+        else
+        {
+            var path = Path.Combine(_seedRoot, "decision-config.xml");
+            if (!File.Exists(path)) return new();
+            doc = XDocument.Load(path);
+        }
         return doc.Descendants("request")
             .ToDictionary(
                 r => r.Attribute("code")?.Value ?? "",

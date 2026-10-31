@@ -717,7 +717,7 @@ public partial class MainWindow : Window
 
         var filtered = allowed.Count > 0
             ? _decisionCodes.Where(x => allowed.Contains(x.Code)).ToList()
-            : _decisionCodes;
+            : new List<CodeListEntryDto>();
 
         DecisionCombo.ItemsSource = filtered;
         DecisionCombo.SelectedIndex = -1;
